@@ -5,7 +5,7 @@ yes | unminimize
 apt update
 apt upgrade -y
 
-apt install neovim zsh curl git
+apt install neovim zsh curl git tmux
 
 # Install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
